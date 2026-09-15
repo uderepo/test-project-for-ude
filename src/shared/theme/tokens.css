@@ -1,0 +1,20 @@
+:root {
+  --ref-color-blue-500: #3b82f6;
+  --ref-color-slate-900: #0f172a;
+  --ref-color-white: #ffffff;
+
+  --sys-surface: var(--ref-color-white);
+  --sys-on-surface: var(--ref-color-slate-900);
+  --sys-primary: var(--ref-color-blue-500);
+  --sys-on-primary: var(--ref-color-white);
+
+  --typo-body-font-size: 14px;
+  --typo-body-line-height: 20px;
+  --typo-heading-font-size: 28px;
+  --typo-heading-font-weight: 700;
+}
+
+[data-theme='dark'] {
+  --sys-surface: var(--ref-color-slate-900);
+  --sys-on-surface: var(--ref-color-white);
+}
