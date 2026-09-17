@@ -18,7 +18,7 @@ export default function ScreenAbout() {
         color: theme?.sys?.onSurface ?? '#0f172a',
       }}
     >
-      <h1 style={{ fontSize: '28px', fontWeight: '700' }}>About</h1>
+      <h1 style={{ fontSize: '28px', fontWeight: '700' }}>About-test</h1>
       <p style={{ fontSize: '14px', lineHeight: '20px' }}>Sibling screen for multi-screen routing. Safe to edit and safe to delete.</p>
       <button
         style={{

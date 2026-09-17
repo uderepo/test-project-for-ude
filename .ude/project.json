@@ -1,0 +1,63 @@
+{
+  "version": "0.1.0",
+  "dataFileRoles": {
+    "src/shared/theme/tokens.css": {
+      "kind": "css-tokens"
+    }
+  },
+  "themeContext": {
+    "source": {
+      "kind": "css-vars",
+      "file": "src/shared/theme/tokens.css"
+    },
+    "modeGroups": [
+      {
+        "id": "theme",
+        "isGlobal": true,
+        "modes": [
+          {
+            "id": "light",
+            "label": "light",
+            "selector": ":root"
+          },
+          {
+            "id": "dark",
+            "label": "dark",
+            "selector": "[data-theme='dark']"
+          }
+        ],
+        "defaultMode": "light"
+      }
+    ],
+    "collectionRules": [
+      {
+        "prefix": "--typo-heading-font-",
+        "collectionName": "typo-heading-font",
+        "kind": "tokens"
+      },
+      {
+        "prefix": "--ref-color-",
+        "collectionName": "ref-color",
+        "kind": "tokens"
+      },
+      {
+        "prefix": "--typo-body-",
+        "collectionName": "typo-body",
+        "kind": "tokens"
+      },
+      {
+        "prefix": "--sys-on-",
+        "collectionName": "sys-on",
+        "kind": "tokens"
+      },
+      {
+        "prefix": "--sys-",
+        "collectionName": "sys",
+        "kind": "tokens"
+      }
+    ]
+  },
+  "workspaceProject": {
+    "projectId": "proj_EcoIHFxCJymVBYFbdW8Qew"
+  }
+}
