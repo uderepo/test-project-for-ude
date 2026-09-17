@@ -18,7 +18,7 @@ export default function ScreenContact() {
         color: theme?.sys?.onSurface ?? '#0f172a',
       }}
     >
-      <h1 style={{ fontSize: '28px', fontWeight: '700' }}>Contact</h1>
+      <h1 style={{ fontSize: '28px', fontWeight: '700' }}>Contact-test-2</h1>
       <p style={{ fontSize: '14px', lineHeight: '20px' }}>Fourth screen. Rename it to see whether its address survives.</p>
       <button
         style={{
