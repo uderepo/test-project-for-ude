@@ -1,3 +1,4 @@
+// binding_id probe 28.09
 import { useContext } from 'react';
 import { ThemeContext } from '../../shared/theme/model/context/context';
 
