@@ -17,13 +17,13 @@
         "modes": [
           {
             "id": "light",
-            "label": "light",
-            "selector": ":root"
+            "selector": ":root",
+            "label": "light"
           },
           {
             "id": "dark",
-            "label": "dark",
-            "selector": "[data-theme='dark']"
+            "selector": "[data-theme='dark']",
+            "label": "dark"
           }
         ],
         "defaultMode": "light"
@@ -53,6 +53,11 @@
       {
         "prefix": "--sys-",
         "collectionName": "sys",
+        "kind": "tokens"
+      },
+      {
+        "prefix": "--collection-",
+        "collectionName": "collection",
         "kind": "tokens"
       }
     ]
