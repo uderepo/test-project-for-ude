@@ -18,3 +18,7 @@
   --sys-surface: var(--ref-color-slate-900);
   --sys-on-surface: var(--ref-color-white);
 }
+
+:root {
+  --collection-color: #FFFFFF;
+}
